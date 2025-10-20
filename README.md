@@ -1,14 +1,16 @@
-# 🛡️ XeOps.ai - AI-Powered Cybersecurity Platform
+# 🛡️ XeOps.ai - AI-Powered Offensive Security Platform
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-xeops.ai-FF0137?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.xeops.ai)
+[![Website](https://img.shields.io/badge/Website-www.xeops.ai-FF0137?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.xeops.ai)
+[![Start Free Scan](https://img.shields.io/badge/Start-Free_Scan-00C853?style=for-the-badge&logo=security&logoColor=white)](https://www.xeops.ai)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sofyenmarzougui/)
-[![Email](https://img.shields.io/badge/Email-contact@xeops.ai-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@xeops.ai)
 
-**Democratizing Cybersecurity with AI-Powered Automation**
+**From Discovery to Exploit, Automatically**
 
-*Making Enterprise-Grade Security Accessible to Everyone*
+*Enterprise-grade vulnerability discovery and exploitation powered by AI*
+
+[Start Free Scan](https://www.xeops.ai) · [View Pricing](https://www.xeops.ai/pricing) · [Documentation](#-documentation)
 
 </div>
 
@@ -16,207 +18,369 @@
 
 ## 🌟 What is XeOps?
 
-**XeOps** is an AI-powered cybersecurity SaaS platform that makes professional security testing accessible and affordable. We leverage cutting-edge AI to deliver enterprise-grade vulnerability scanning at **10x the speed** and **90% lower cost** than traditional penetration testing.
+**XeOps.ai** is an AI-powered offensive security platform that transforms vulnerability discovery into actionable exploits automatically. Built for security professionals who need **speed**, **accuracy**, and **proof** — not just vulnerability reports.
 
-### 🎯 Our Mission
+### 🎯 Why XeOps?
 
-> "Traditional penetration testing costs €5,000-€20,000 and takes weeks. XeOps delivers the same results in minutes for a fraction of the cost."
+> Traditional security scanners find vulnerabilities. XeOps **proves** they're exploitable.
 
-We're on a mission to democratize cybersecurity, making it accessible to startups, SMBs, and enterprises alike.
+- **100x Faster** than manual penetration testing
+- **60,000+ Exploit Templates** ready to use
+- **Zero False Positives** with verified proof-of-concept
+- **24/7 Autonomous** operation without human intervention
 
 ---
 
 ## 🚀 Key Features
 
+### 🤖 AI-Powered Autonomous Testing
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  1. Discovery    →    2. Exploitation    →    3. Validation │
+│                                                          │
+│  Maps attack       AI generates          Verifies with  │
+│  surfaces &        custom exploits       working PoCs    │
+│  endpoints         adaptively                            │
+└─────────────────────────────────────────────────────────┘
+```
+
+### 🎯 Complete Attack Surface Coverage
+
 <table>
 <tr>
 <td width="50%">
 
-### 🤖 AI-Powered Engine
-- **Multi-Model AI**: DeepSeek, Qwen, LLaMA
-- **Zero False Positives**: 99.9% accuracy
-- **Real-time Analysis**: Live progress tracking
-- **Automated PoC Generation**: Instant exploit creation
+**🌐 Web Applications**
+- OWASP Top 10
+- Business logic flaws
+- Authentication bypasses
+- Authorization issues
+
+**📱 Mobile Applications**
+- iOS & Android
+- API vulnerabilities
+- Deep linking exploits
+- Certificate pinning
 
 </td>
 <td width="50%">
 
-### 🔍 Comprehensive Testing
-- **500+ Vulnerability Types**: Complete coverage
-- **OWASP Top 10**: Full compliance
-- **MITRE ATT&CK**: Advanced threat modeling
-- **CVE Database**: 10,000+ vulnerability templates
+**🔌 APIs & Services**
+- REST, GraphQL, SOAP
+- API key exposure
+- Rate limiting bypass
+- IDOR vulnerabilities
+
+**☁️ Cloud Infrastructure**
+- AWS, GCP, Azure
+- Misconfigurations
+- IAM vulnerabilities
+- Storage exposures
 
 </td>
 </tr>
 </table>
 
----
+### ⚡ Advanced Capabilities
 
-## 📊 Proven Results
-
-Based on real Bug Bounty programs (AGORA, Memento DFM, UEFA):
-
-| Metric | Performance |
-|--------|-------------|
-| 🎯 **Vulnerability Detection** | 500+ types covered |
-| ✅ **False Positive Rate** | 0% (99.9% accuracy) |
-| ⚡ **Speed vs Manual Testing** | 10x faster |
-| 💰 **Cost Reduction** | 90% cheaper than traditional PenTest |
-| 🔴 **Critical Findings** | CVSS 9.9-10.0 detected |
-| 📈 **Endpoints Analyzed** | 150+ requests per scan |
+| Feature | Description |
+|---------|-------------|
+| **Custom Exploit Generation** | AI creates tailored exploits for discovered vulnerabilities |
+| **Verified PoC** | Every finding includes working proof-of-concept code |
+| **AI Security Expert** | Real-time chatbot for vulnerability insights and remediation |
+| **CI/CD Integration** | Automated pre-deployment security scanning |
+| **Compliance Reports** | SOC 2, ISO 27001, PCI-DSS ready reports |
 
 ---
 
-## 🏗️ Our Technology Stack
+## 💰 Pricing Plans
+
+### 🎁 Free Trial
+**10 free scans** to test the platform. No credit card required.
+
+### 💼 Paid Plans
+
+<table>
+<tr>
+<th width="33%">Starter<br/>€49/month</th>
+<th width="33%">Professional<br/>€149/month</th>
+<th width="33%">Enterprise<br/>€499/month</th>
+</tr>
+<tr>
+<td>
+
+**Perfect for:**
+- Startups
+- Small teams
+- Bug bounty hunters
+
+**Includes:**
+- ✅ 100 scans/month
+- ✅ 5 team members
+- ✅ Web & API scanning
+- ✅ OWASP Top 10
+- ✅ Basic reports
+- ✅ 48h email support
+- ✅ Custom exploits
+- ✅ API access
+
+</td>
+<td>
+
+**Perfect for:**
+- Growing companies
+- Security teams
+- DevSecOps
+
+**Includes:**
+- ✅ 500 scans/month
+- ✅ 20 team members
+- ✅ All attack surfaces
+- ✅ Verified PoC exploits
+- ✅ Full compliance reports
+- ✅ Slack, JIRA, GitHub
+- ✅ 24h priority support
+- ✅ Webhooks & API
+
+</td>
+<td>
+
+**Perfect for:**
+- Enterprises
+- MSSPs
+- Large security teams
+
+**Includes:**
+- ✅ Unlimited scans
+- ✅ Unlimited team members
+- ✅ Web3 testing
+- ✅ APT red team simulation
+- ✅ White-label reports
+- ✅ Custom integrations
+- ✅ Dedicated manager
+- ✅ 24/7 support (4h SLA)
+
+</td>
+</tr>
+</table>
+
+[View Full Pricing Details →](https://www.xeops.ai/pricing)
+
+---
+
+## 🔧 Technology Stack
 
 ```
-🧠 AI Models
-├── DeepSeek Coder V2 (16B)
-├── Qwen 2.5 Coder (7B)
-└── LLaMA 3.3 (70B)
+🧠 AI/ML Engine
+├── Advanced AI models for autonomous discovery
+├── Custom exploit generation algorithms
+└── Adaptive exploitation strategies
 
-🔧 Core Platform
-├── Next.js (Frontend)
-├── Node.js (API Gateway)
-├── Python/FastAPI (AI Engine)
-└── PostgreSQL (Database)
+🔐 60,000+ Exploit Database
+├── Metasploit integration
+├── Exploit-DB templates
+└── Nuclei vulnerability checks
 
-🔐 Security Modules
-├── SQL Injection
-├── XSS (Cross-Site Scripting)
-├── IDOR (Broken Access Control)
-├── SSRF (Server-Side Request Forgery)
-├── CSRF (Cross-Site Request Forgery)
-├── XXE (XML External Entities)
-├── SSTI (Server-Side Template Injection)
-├── LFI/RCE (Local File Inclusion / Remote Code Execution)
-└── Custom AI-Generated Exploits
+🏗️ Cloud Infrastructure
+├── GCP Cloud Run (auto-scaling microservices)
+├── PostgreSQL database
+├── Secret Manager (enterprise encryption)
+└── Next.js 15 frontend
+
+🔌 Integrations
+├── Slack, JIRA, GitHub
+├── CI/CD pipelines (Jenkins, GitLab, GitHub Actions)
+└── SIEM tools (Splunk, ELK)
 ```
-
----
-
-## 📁 Our Repositories
-
-### 🌟 Main Platform
-- **[xeops](https://github.com/xeops-sofyen/xeops)** - Complete AI-powered cybersecurity platform (monorepo)
-  - 🌐 Landing page & authentication
-  - 🤖 AI scanning engine
-  - 📊 Real-time dashboard
-  - 🔍 Vulnerability scanner (15,953 lines)
-
-### 📚 Documentation & Resources
-- **[xeops-docs](https://github.com/xeops-sofyen/xeops-docs)** - Public documentation, guides, and API reference
-- **Bug Bounty Reports** - Coming soon
 
 ---
 
 ## 🎯 Use Cases
 
-### For Startups
-> "Get enterprise security without the enterprise budget"
-- Automated vulnerability scanning
-- Continuous security monitoring
-- Pre-investment security audits
-
-### For Enterprises
-> "Scale your security team with AI"
-- Automated penetration testing
-- Compliance reporting (OWASP, MITRE)
-- Integration with existing DevSecOps
-
 ### For Bug Bounty Hunters
-> "10x your efficiency with AI-powered reconnaissance"
-- Automated vulnerability discovery
-- PoC generation
-- CVE enrichment and validation
+> **10x your efficiency** with automated reconnaissance and exploit generation
+
+- Autonomous 24/7 scanning
+- Custom exploit generation
+- PoC ready for submission
+- Fast discovery-to-exploit pipeline
+
+### For Enterprise Security Teams
+> **Scale your security** without scaling your team
+
+- Continuous security validation
+- Pre-deployment automated scanning
+- Compliance reporting (SOC 2, ISO 27001)
+- Integration with existing tools
+
+### For DevSecOps
+> **Shift left** with automated security testing
+
+- CI/CD pipeline integration
+- API-first automation
+- Webhook notifications
+- Failed pipeline on critical findings
+
+### For Red Team Operators
+> **APT simulation** with autonomous exploitation
+
+- Advanced persistent threat scenarios
+- Multi-vector attack chains
+- White-box + black-box analysis
+- Custom attack playbooks
 
 ---
 
-## 🌍 About Us
+## 🚀 Quick Start
 
-**XeOps** was founded in **2024** in **Paris, France** to democratize cybersecurity through AI automation.
+### 1. Start Your Free Scan
 
-### 👥 Team
-- **Sofyen Marzougui** - CEO & Founder
-  - [LinkedIn](https://www.linkedin.com/in/sofyenmarzougui/)
-- **Nouusayba** - Cybersecurity Consultant
-- **Fathiya** - Cybersecurity Consultant
+```bash
+# Visit www.xeops.ai and click "Start Free Scan"
+# No credit card required - 10 free scans included
+```
 
-### 📍 Location
+### 2. Sign Up & Configure
+
+1. Create your account at [www.xeops.ai/signup](https://www.xeops.ai/signup)
+2. Verify your email
+3. Configure your first scan target
+4. Choose scan intensity (Light / Normal / Aggressive)
+
+### 3. Launch Autonomous Testing
+
+```
+Target URL: https://your-app.com
+Scan Type: Full (Web + API + Mobile)
+Mode: Autonomous exploitation
+```
+
+### 4. Get Verified Exploits
+
+Within minutes, receive:
+- ✅ Vulnerability findings with CVSS scores
+- ✅ Working proof-of-concept exploits
+- ✅ Step-by-step remediation guides
+- ✅ Compliance-ready reports
+
+[Get Started Now →](https://www.xeops.ai)
+
+---
+
+## 📚 Documentation
+
+- **[Getting Started Guide](./GETTING_STARTED.md)** - Complete onboarding tutorial
+- **[API Documentation](./API_GUIDE.md)** - Integrate XeOps into your workflow
+- **[Security Best Practices](https://www.xeops.ai/docs/security)** - Secure scanning guidelines
+
+---
+
+## 🌍 About XeOps
+
+### Mission
+
+> "Make offensive security testing as easy as running a single command."
+
+We deliver enterprise-grade security automation without enterprise pricing, enabling organizations to conduct vulnerability testing from discovery through exploitation automatically.
+
+### Team
+
+**Sofyen Marzougui** - CEO & Founder
+- ECE Paris 2014
+- Previously: Oracle, Red Hat, Datadog, Cohesity
+- Decades of enterprise security experience
+- [LinkedIn](https://www.linkedin.com/in/sofyenmarzougui/)
+
+**Nouusayba** - Cybersecurity Consultant
+- Junior Cybersecurity & Management
+
+**Fathiya** - Cybersecurity Consultant
+- Junior Cybersecurity & Management
+
+### Location
 **1 rue de Stockholm, 75008 Paris - France**
 
 ---
 
-## 🚀 Get Started
+## 🏆 Why Choose XeOps?
 
-### Try XeOps
-1. Visit [xeops.ai](https://www.xeops.ai)
-2. Sign up for a free account
-3. Run your first security scan in minutes
-
-### For Developers
-```bash
-# Clone the platform
-git clone https://github.com/xeops-sofyen/xeops.git
-cd xeops
-
-# Setup environment
-./scripts/setup-dev-environment.sh
-
-# Start all services
-docker-compose up -d
-```
-
-See our [Documentation](https://github.com/xeops-sofyen/xeops-docs) for detailed guides.
+| Traditional Scanners | XeOps.ai |
+|---------------------|----------|
+| 🐌 Slow manual analysis | ⚡ 100x faster automation |
+| ❌ High false positive rate | ✅ Zero false positives |
+| 📄 Vulnerability lists only | 💣 Working PoC exploits |
+| 🕐 Business hours only | 🌙 24/7 autonomous operation |
+| 💰 €5,000-€20,000 per pentest | 💸 €49/month unlimited |
+| 📧 Email-only support | 🤝 Dedicated account manager |
 
 ---
 
-## 🐛 Report Bugs & Issues
+## 📊 Platform Stats
 
-Found a security vulnerability or bug?
-
-1. **Security Issues**: Email us at **security@xeops.ai** (PGP key available)
-2. **Bug Reports**: [Open an issue](https://github.com/xeops-sofyen/xeops/issues/new/choose)
-3. **Feature Requests**: [Submit a proposal](https://github.com/xeops-sofyen/xeops/discussions)
-
-**Bug Bounty Program**: Coming soon with rewards for valid security findings.
+![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square)
+![Exploits](https://img.shields.io/badge/Exploits-60,000+-FF6B6B?style=flat-square)
+![Speed](https://img.shields.io/badge/Speed-100x_Faster-00D9FF?style=flat-square)
+![False Positives](https://img.shields.io/badge/False_Positives-0%25-00C853?style=flat-square)
+![Uptime](https://img.shields.io/badge/Uptime-24/7-4CAF50?style=flat-square)
 
 ---
 
-## 📞 Contact Us
+## 🔐 Security & Compliance
 
-<div align="center">
+### Tested Attack Surfaces
+- ✅ Web Applications (OWASP Top 10)
+- ✅ Mobile Apps (iOS, Android)
+- ✅ APIs (REST, GraphQL, SOAP)
+- ✅ Cloud Infrastructure (AWS, GCP, Azure)
+- ✅ Web3 & Blockchain (Enterprise plan)
+- ✅ Network Infrastructure
 
-**Ready to secure your applications?**
-
-[![Website](https://img.shields.io/badge/Visit-xeops.ai-FF0137?style=for-the-badge)](https://www.xeops.ai)
-[![Email](https://img.shields.io/badge/Email-contact@xeops.ai-EA4335?style=for-the-badge)](mailto:contact@xeops.ai)
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge)](https://www.linkedin.com/in/sofyenmarzougui/)
-
-**Sales**: sales@xeops.ai
-**Support**: support@xeops.ai
-**Security**: security@xeops.ai
-
-</div>
-
----
-
-## 📊 Live Platform Stats
-
-![Scans Performed](https://img.shields.io/badge/Scans-500+-brightgreen?style=flat-square)
-![Vulnerabilities Detected](https://img.shields.io/badge/Vulnerabilities-1000+-orange?style=flat-square)
-![False Positives](https://img.shields.io/badge/False%20Positives-0%25-blue?style=flat-square)
-![Uptime](https://img.shields.io/badge/Uptime-99.9%25-success?style=flat-square)
+### Compliance Reports
+- ✅ SOC 2 Type II
+- ✅ ISO 27001
+- ✅ PCI-DSS
+- ✅ GDPR compliant
+- ✅ Custom formats available
 
 ---
 
-## 🏆 Recognition
+## 🆘 Support
 
-- ✅ **Bug Bounty Success**: Vulnerabilities submitted to AGORA, Memento DFM
-- ✅ **Zero False Positives**: 100% accuracy in detection
-- ✅ **AI Innovation**: Multi-model approach for maximum coverage
-- ✅ **GITEX 2025**: Showcased at Dubai's largest tech conference
+### Community & Resources
+
+**📧 Email Support:**
+- General: contact@xeops.ai
+- Technical: support@xeops.ai
+- Sales: sales@xeops.ai
+- Security: security@xeops.ai
+
+**📚 Knowledge Base:**
+- [Documentation](https://www.xeops.ai/docs)
+- [API Reference](./API_GUIDE.md)
+- [Video Tutorials](https://www.xeops.ai/tutorials)
+- [Blog & Guides](https://www.xeops.ai/blog)
+
+**💬 Social:**
+- [LinkedIn](https://www.linkedin.com/company/xeops)
+- [GitHub](https://github.com/xeops-sofyen)
+
+### Response Times
+- **Starter**: 48 hours
+- **Professional**: 24 hours (priority)
+- **Enterprise**: 4 hours (SLA guaranteed)
+
+---
+
+## 🐛 Responsible Disclosure
+
+Found a security vulnerability or bug in XeOps?
+
+1. **Security Issues**: Email **security@xeops.ai** (PGP key available)
+2. **Bug Reports**: [Open an issue](https://github.com/xeops-sofyen/xeops-ai-public/issues)
+3. **Feature Requests**: [Start a discussion](https://github.com/xeops-sofyen/xeops-ai-public/discussions)
+
+We take security seriously and respond to all reports within 24 hours.
 
 ---
 
@@ -230,10 +394,18 @@ For enterprise licensing inquiries: **contact@xeops.ai**
 
 <div align="center">
 
+## 🚀 Ready to Automate Your Security Testing?
+
+[![Start Free Scan](https://img.shields.io/badge/Start_Free_Scan-10_Scans_Free-00C853?style=for-the-badge&logo=security&logoColor=white)](https://www.xeops.ai)
+[![View Pricing](https://img.shields.io/badge/View-Pricing-FF0137?style=for-the-badge&logo=stripe&logoColor=white)](https://www.xeops.ai/pricing)
+[![Contact Sales](https://img.shields.io/badge/Contact-Sales-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](mailto:sales@xeops.ai)
+
+---
+
 **Built with ❤️ in Paris, France**
 
-🤖 Powered by DeepSeek • Qwen • LLaMA
+🤖 Powered by Advanced AI • 60,000+ Exploits • 100x Faster
 
-*Making the web a safer place, one scan at a time.*
+*From Discovery to Exploit, Automatically*
 
 </div>
