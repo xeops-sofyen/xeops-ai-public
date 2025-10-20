@@ -38,7 +38,7 @@ Authorization: Bearer YOUR_API_KEY_HERE
 
 **Example:**
 ```bash
-curl -X GET https://api.xeops.ai/api/scans \
+curl -X GET https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scans \
   -H "Authorization: Bearer xeops_live_1234567890abcdef"
 ```
 
@@ -47,10 +47,13 @@ curl -X GET https://api.xeops.ai/api/scans \
 ## 🌐 Base URL
 
 ```
-https://api.xeops.ai
+Production: https://xeops-api-gateway-97758009309.europe-west1.run.app
+Public API: https://api.xeops.ai (coming soon - custom domain mapping)
 ```
 
 All API requests must use HTTPS. HTTP requests will be redirected.
+
+**Current Status**: The platform is deployed on GCP Cloud Run. Use the production URL above for all API requests.
 
 ---
 
@@ -426,7 +429,7 @@ is_valid = verify_webhook(request.body, signature, webhook_secret)
 import requests
 
 API_KEY = "xeops_live_your_api_key"
-BASE_URL = "https://api.xeops.ai"
+BASE_URL = "https://xeops-api-gateway-97758009309.europe-west1.run.app"
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
@@ -486,7 +489,7 @@ for finding in results["findings"]:
 const axios = require('axios');
 
 const API_KEY = 'xeops_live_your_api_key';
-const BASE_URL = 'https://api.xeops.ai';
+const BASE_URL = 'https://xeops-api-gateway-97758009309.europe-west1.run.app';
 
 const client = axios.create({
   baseURL: BASE_URL,
@@ -552,7 +555,7 @@ runScan();
 #!/bin/bash
 
 API_KEY="xeops_live_your_api_key"
-BASE_URL="https://api.xeops.ai"
+BASE_URL="https://xeops-api-gateway-97758009309.europe-west1.run.app"
 
 # Create scan
 SCAN_RESPONSE=$(curl -s -X POST "$BASE_URL/api/scan" \
@@ -614,7 +617,7 @@ jobs:
     steps:
       - name: Trigger XeOps Scan
         run: |
-          RESPONSE=$(curl -s -X POST https://api.xeops.ai/api/scan \
+          RESPONSE=$(curl -s -X POST https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scan \
             -H "Authorization: Bearer ${{ secrets.XEOPS_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{
@@ -629,7 +632,7 @@ jobs:
       - name: Wait for Scan Completion
         run: |
           while true; do
-            STATUS=$(curl -s https://api.xeops.ai/api/scan/$SCAN_ID \
+            STATUS=$(curl -s https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scan/$SCAN_ID \
               -H "Authorization: Bearer ${{ secrets.XEOPS_API_KEY }}" \
               | jq -r '.status')
 
@@ -642,7 +645,7 @@ jobs:
 
       - name: Check Results
         run: |
-          RESULTS=$(curl -s https://api.xeops.ai/api/scan/$SCAN_ID/results \
+          RESULTS=$(curl -s https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scan/$SCAN_ID/results \
             -H "Authorization: Bearer ${{ secrets.XEOPS_API_KEY }}")
 
           CRITICAL=$(echo $RESULTS | jq -r '.summary.critical')
@@ -664,7 +667,7 @@ security_scan:
   stage: test
   script:
     - |
-      RESPONSE=$(curl -s -X POST https://api.xeops.ai/api/scan \
+      RESPONSE=$(curl -s -X POST https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scan \
         -H "Authorization: Bearer $XEOPS_API_KEY" \
         -H "Content-Type: application/json" \
         -d "{
@@ -676,7 +679,7 @@ security_scan:
       SCAN_ID=$(echo $RESPONSE | jq -r '.scan_id')
 
       while true; do
-        STATUS=$(curl -s https://api.xeops.ai/api/scan/$SCAN_ID \
+        STATUS=$(curl -s https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scan/$SCAN_ID \
           -H "Authorization: Bearer $XEOPS_API_KEY" \
           | jq -r '.status')
 
@@ -687,7 +690,7 @@ security_scan:
         sleep 30
       done
 
-      RESULTS=$(curl -s https://api.xeops.ai/api/scan/$SCAN_ID/results \
+      RESULTS=$(curl -s https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scan/$SCAN_ID/results \
         -H "Authorization: Bearer $XEOPS_API_KEY")
 
       CRITICAL=$(echo $RESULTS | jq -r '.summary.critical')

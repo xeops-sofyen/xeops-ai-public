@@ -70,20 +70,34 @@ Based on real Bug Bounty programs (AGORA, Memento DFM, UEFA):
 
 ## 🏗️ Our Technology Stack
 
+### Cloud Infrastructure (GCP)
+```
+☁️ Google Cloud Platform
+├── Cloud Run (Serverless Containers)
+│   ├── Frontend (Next.js 14)
+│   ├── API Gateway (Node.js + Express)
+│   ├── Auth Service (JWT + Email Verification)
+│   └── Scanner Service (Python + FastAPI)
+├── Cloud SQL (PostgreSQL)
+├── Cloud Build (CI/CD)
+└── Cloud Secrets Manager
+
+🌐 Production URLs
+├── Frontend: https://www.xeops.ai
+├── API Gateway: https://xeops-api-gateway-97758009309.europe-west1.run.app
+├── Auth Service: https://xeops-auth-service-97758009309.europe-west1.run.app
+└── Scanner Service: https://xeops-scanner-97758009309.europe-west1.run.app
+```
+
+### AI & Security
 ```
 🧠 AI Models
 ├── DeepSeek Coder V2 (16B)
 ├── Qwen 2.5 Coder (7B)
 └── LLaMA 3.3 (70B)
 
-🔧 Core Platform
-├── Next.js (Frontend)
-├── Node.js (API Gateway)
-├── Python/FastAPI (AI Engine)
-└── PostgreSQL (Database)
-
 🔐 Security Modules
-├── SQL Injection
+├── SQL Injection (CWE-89)
 ├── XSS (Cross-Site Scripting)
 ├── IDOR (Broken Access Control)
 ├── SSRF (Server-Side Request Forgery)
@@ -91,7 +105,7 @@ Based on real Bug Bounty programs (AGORA, Memento DFM, UEFA):
 ├── XXE (XML External Entities)
 ├── SSTI (Server-Side Template Injection)
 ├── LFI/RCE (Local File Inclusion / Remote Code Execution)
-└── Custom AI-Generated Exploits
+└── Custom AI-Generated Exploits (500+ vulnerability types)
 ```
 
 ---
@@ -204,10 +218,14 @@ Found a security vulnerability or bug?
 
 ## 📊 Live Platform Stats
 
+![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square)
+![Deployment](https://img.shields.io/badge/Deployment-GCP%20Cloud%20Run-4285F4?style=flat-square&logo=googlecloud)
 ![Scans Performed](https://img.shields.io/badge/Scans-500+-brightgreen?style=flat-square)
 ![Vulnerabilities Detected](https://img.shields.io/badge/Vulnerabilities-1000+-orange?style=flat-square)
 ![False Positives](https://img.shields.io/badge/False%20Positives-0%25-blue?style=flat-square)
-![Uptime](https://img.shields.io/badge/Uptime-99.9%25-success?style=flat-square)
+![Performance](https://img.shields.io/badge/Load%20Time-86ms-success?style=flat-square)
+
+**Production Deployment**: October 20, 2025 | **Region**: europe-west1 (Belgium)
 
 ---
 
