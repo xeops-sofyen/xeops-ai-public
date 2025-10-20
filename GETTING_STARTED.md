@@ -19,55 +19,46 @@ Welcome to XeOps.ai! This guide will help you get started with our AI-powered cy
 
 ### Step 1: Sign Up
 
-1. Visit [www.xeops.ai](https://www.xeops.ai)
+1. Visit [xeops.ai](https://xeops.ai)
 2. Click **"Sign Up"** in the top right
 3. Fill in your information:
    - Email address
    - Password (minimum 8 characters)
    - First name & Last name
-   - Company name (optional)
+   - Company name
 4. Click **"Create Account"**
 
 ### Step 2: Verify Your Email
 
-1. Check your email inbox for a verification email from noreply@xeops.ai
-2. Click the verification link (valid for 24 hours)
+1. Check your email inbox
+2. Click the verification link
 3. Your account is now active!
-
-**Note**: If you don't receive the email:
-- Check your spam folder
-- Click "Resend verification email" on the verification page
-- Contact support@xeops.ai if issues persist
 
 ### Step 3: Login
 
-1. Go to [www.xeops.ai/login](https://www.xeops.ai/login)
+1. Go to [xeops.ai/login](https://xeops.ai/login)
 2. Enter your email and password
 3. You'll be redirected to your dashboard
-
-**Production Status**: The platform is live on Google Cloud Run with 99.9% uptime and <100ms load times.
 
 ---
 
 ## 🔍 Your First Security Scan
 
-### Option A: Free Scan Request
+### Option A: Free Scan (No Account Required)
 
 Perfect for trying out XeOps without commitment.
 
-1. Visit [www.xeops.ai/contact](https://www.xeops.ai/contact) or email contact@xeops.ai
-2. Provide scan details:
+1. Visit [xeops.ai/scan](https://xeops.ai/scan)
+2. Fill in the scan request form:
    ```
    Email: your@email.com
    Company: Your Company Name
    Target URL or API: https://your-app.com
-   Industry: Your industry
-   Authorization proof: Confirmation you own/can test the target
+   Industry: Select your industry
+   Urgency: Normal / Urgent
    ```
-3. Our team will review and schedule your free scan
-4. Results delivered within 24-48 hours
-
-**Important**: You must have authorization to scan the target. Unauthorized scanning is illegal.
+3. Click **"Request Free Scan"**
+4. Our team will review and send you results within 24-48 hours
 
 ### Option B: Instant Scan (Requires Account)
 
@@ -343,12 +334,11 @@ Perfect for trying out XeOps.
 **Q: Can I automate scans?**
 > A: Yes. Use our REST API to trigger scans programmatically:
 > ```bash
-> curl -X POST https://xeops-api-gateway-97758009309.europe-west1.run.app/api/scan \
+> curl -X POST https://api.xeops.ai/api/scan \
 >   -H "Authorization: Bearer YOUR_API_KEY" \
 >   -H "Content-Type: application/json" \
 >   -d '{"target":"https://your-app.com","scan_type":"standard"}'
 > ```
-> See [API_GUIDE.md](./API_GUIDE.md) for full documentation.
 
 **Q: What's the difference between scan types?**
 > A:
