@@ -100,7 +100,7 @@ You: "Generate a payload to test this XSS"
 XeOps AI: "<script>alert(document.cookie)</script>"
 ```
 
-Powered by **Gemini Pro**, **Claude 3.5**, and **DeepSeek R1**.
+Powered by **XeOps.AI® Advanced AI Agent**.
 
 ### 🎯 Attack Path Visualization
 
