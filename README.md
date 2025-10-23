@@ -1,94 +1,211 @@
-# XeOps AI - Documentation Publique
+# 🛡️ XeOps.ai - AI-Powered Offensive Security Platform
 
 <div align="center">
+
   <img src="https://xeops.ai/logo.png" alt="XeOps Logo" width="200"/>
 
-  # AI-Powered Ethical Hacking Platform
+  # Discover & Exploit Vulnerabilities with AI
 
-  [![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-blue)](https://marketplace.visualstudio.com/items?itemName=xeops.xeops-guardian)
-  [![Website](https://img.shields.io/badge/Website-xeops.ai-green)](https://xeops.ai)
+  ### From Discovery to Exploit, Automatically
+
+  [![Website](https://img.shields.io/badge/Website-xeops.ai-FF0000?style=for-the-badge)](https://xeops.ai)
+  [![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-007ACC?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=xeops.xeops-guardian)
+  [![Start Free](https://img.shields.io/badge/Start-Free%20Scan-00FF00?style=for-the-badge)](https://xeops.ai/scan)
+
 </div>
 
-## 🎯 À Propos
+---
 
-XeOps AI est une plateforme d'ethical hacking alimentée par l'IA, conçue pour les développeurs et les équipes de sécurité.
+## 🚀 What is XeOps?
 
-### 🚀 Caractéristiques Principales
+**XeOps.ai** is an AI-powered offensive security platform that transforms vulnerability discovery into verified exploits automatically. Built for security professionals who need **speed**, **accuracy**, and **proof** — not just vulnerability reports.
 
-- **🔍 Détection de Vulnérabilités**: Analyse en temps réel avec couverture OWASP Top 10
-- **🎯 Génération d'Exploits**: PoCs vérifiés et fonctionnels
-- **📊 Rapports de Conformité**: ISO 27001, SOC 2, PCI-DSS
-- **🔌 Intégrations**: GitHub, JIRA, Slack, CI/CD
-- **🤖 IA Avancée**: Analyse comportementale et prédictive
+### Why XeOps?
+
+> Traditional security scanners find vulnerabilities. XeOps **proves** they're exploitable.
+
+- **100x Faster** than manual penetration testing
+- **60,000+ Exploit Templates** ready to deploy
+- **Zero False Positives** with verified proof-of-concept
+- **24/7 Autonomous** operation without human intervention
+
+---
+
+## ⚡ Key Features
+
+### 🤖 AI-Powered Autonomous Testing
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│  1. Discovery    →    2. Exploitation    →    3. Validation    │
+│                                                                │
+│  Find vulns           Generate PoC         Verify impact      │
+│  automatically        with AI               with proof        │
+└────────────────────────────────────────────────────────────────┘
+```
+
+### 🎯 Coverage Across All Attack Surfaces
+
+- **Web Applications** - OWASP Top 10 and beyond
+- **APIs** - REST, GraphQL, SOAP, gRPC
+- **Mobile Apps** - iOS & Android
+- **Cloud Infrastructure** - AWS, Azure, GCP
+- **Blockchain & Smart Contracts** - Web3 security
+- **Network Services** - Traditional and modern protocols
+
+### 💰 Built for Professionals
+
+- **Bug Bounty Hunters** - Find critical vulnerabilities faster
+- **Red Teams** - Automate repetitive testing tasks
+- **Security Teams** - Continuous security validation
+- **DevSecOps** - Shift-left security in CI/CD
+
+---
+
+## 🎯 How It Works
+
+### 1️⃣ **Discovery Phase**
+AI-powered scanners identify potential vulnerabilities across your entire attack surface, using both signature-based and behavioral analysis.
+
+### 2️⃣ **Exploitation Phase**
+Our AI generates custom exploits for each vulnerability, adapting payloads in real-time based on application responses.
+
+### 3️⃣ **Validation Phase**
+Every exploit is tested in a safe environment to confirm exploitability and document the full attack chain.
+
+---
+
+## 💡 Real-World Results
+
+```yaml
+Traditional Pentest:          XeOps.ai:
+- 2 weeks duration           - 2 hours completion
+- 50 vulnerabilities found   - 500+ vulnerabilities discovered
+- 10 verified exploits       - 200+ verified exploits
+- $15,000 cost              - $149/month
+- Manual reporting          - Automated compliance reports
+```
+
+---
+
+## 🛠️ VS Code Extension
+
+Install our VS Code extension for real-time security analysis while you code:
+
+```bash
+code --install-extension xeops.xeops-guardian
+```
+
+Features:
+- Real-time vulnerability detection
+- One-click exploit generation
+- Integrated security chat
+- Direct platform integration
+
+[View on Marketplace →](https://marketplace.visualstudio.com/items?itemName=xeops.xeops-guardian)
+
+---
+
+## 💰 Pricing
+
+| Plan | Price | Scans | Features |
+|------|-------|-------|----------|
+| **Starter** | €49/month | 100 scans | Web & API, OWASP Top 10, Basic reports |
+| **Professional** | €149/month | 500 scans | All surfaces, Advanced exploits, Compliance |
+| **Enterprise** | €499/month | Unlimited | White-label, APT simulation, Priority support |
+
+[Start Free Trial →](https://xeops.ai/pricing)
+
+---
+
+## 🚀 Quick Start
+
+### 1. Sign Up
+Create your account at [xeops.ai](https://xeops.ai) - no credit card required for trial.
+
+### 2. Add Your Target
+Enter your application URL, API endpoint, or upload your mobile app.
+
+### 3. Launch Scan
+Click scan and watch as XeOps discovers and exploits vulnerabilities automatically.
+
+### 4. Get Proof
+Receive detailed reports with reproduction steps and verified exploits.
+
+---
+
+## 📊 Trusted By Security Professionals
+
+- **10,000+** Security professionals worldwide
+- **1M+** Vulnerabilities discovered
+- **100,000+** Exploits generated
+- **99.9%** Accuracy rate
+
+---
+
+## 🏆 Use Cases
+
+### Bug Bounty Hunting
+Find critical vulnerabilities before others with AI-powered discovery and instant PoC generation.
+
+### Continuous Security Testing
+Deploy 24/7 autonomous security testing across your entire infrastructure.
+
+### Compliance & Auditing
+Generate professional reports for ISO 27001, SOC 2, PCI-DSS, and more.
+
+### Red Team Operations
+Automate reconnaissance and initial exploitation phases of your engagements.
+
+---
+
+## 🔒 Security & Ethics
+
+- **Authorized Testing Only** - Only test systems you have permission to test
+- **Responsible Disclosure** - We support responsible vulnerability disclosure
+- **Data Privacy** - Your data is encrypted and never shared
+- **Ethical Use** - Built for legitimate security testing only
+
+---
 
 ## 📚 Documentation
 
-### Extension VS Code
-- [📥 Installation](docs/extension/INSTALLATION.md)
-- [📖 Guide d'utilisation](docs/extension/USAGE.md)
-- [⚙️ Configuration](docs/extension/CONFIGURATION.md)
-- [🔧 Dépannage](docs/extension/TROUBLESHOOTING.md)
+- [Getting Started Guide](docs/platform/GETTING_STARTED.md)
+- [API Documentation](docs/platform/API_REFERENCE.md)
+- [VS Code Extension Guide](docs/extension/INSTALLATION.md)
+- [FAQ](docs/FAQ.md)
 
-### Plateforme Web
-- [🚀 Démarrage rapide](docs/platform/GETTING_STARTED.md)
-- [📋 API Reference](docs/platform/API_REFERENCE.md)
-- [💰 Tarification](docs/platform/PRICING.md)
-- [✨ Fonctionnalités](docs/platform/FEATURES.md)
+---
 
-### Sécurité & Éthique
-- [🛡️ Utilisation éthique](docs/security/ETHICAL_USE.md)
-- [🔒 Divulgation responsable](docs/security/RESPONSIBLE_DISCLOSURE.md)
-- [🎯 Programme Bug Bounty](docs/security/BUG_BOUNTY.md)
+## 🤝 Community & Support
 
-### Ressources
-- [❓ FAQ](docs/FAQ.md)
-- [📝 Changelog](CHANGELOG.md)
-- [🤝 Guide de contribution](CONTRIBUTING.md)
+- **Discord**: [Join our community](https://discord.gg/xeops)
+- **Support**: support@xeops.ai
+- **Bug Reports**: [GitHub Issues](https://github.com/xeops-sofyen/xeops-ai-public/issues)
+- **Twitter**: [@XeOpsAI](https://twitter.com/XeOpsAI)
 
-## 💰 Tarification
+---
 
-| Plan | Prix | Scans | Équipe |
-|------|------|-------|---------|
-| **Starter** | €49/mois | 100 | 5 membres |
-| **Professional** | €149/mois | 500 | 20 membres |
-| **Enterprise** | €499/mois | Illimité | Illimité |
+## 🛡️ Legal
 
-👉 Détails complets: [Tarification](docs/platform/PRICING.md)
-
-## 🤝 Contribution
-
-Nous acceptons les contributions pour:
-- 📝 Amélioration de la documentation
-- 🌍 Traductions
-- 📚 Exemples d'utilisation
-- 🐛 Rapports de bugs
-
-Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour les détails.
-
-## 🆘 Support
-
-- **📧 Email**: support@xeops.ai
-- **💬 Discord**: [Rejoindre notre serveur](https://discord.gg/xeops)
-- **🐛 Issues**: [GitHub Issues](https://github.com/xeops-sofyen/xeops-ai-public/issues)
-- **📖 Documentation**: [Ce repository](docs/)
-
-## 📄 Licence
+This repository contains documentation and public resources for XeOps.ai platform. The core platform, AI engine, and exploit generation capabilities are proprietary.
 
 - **Documentation**: Creative Commons BY-SA 4.0
-- **Extension VS Code**: MIT License
-- **Plateforme XeOps AI**: Propriétaire
-
-## 🔗 Liens Utiles
-
-- **🌐 Site Web**: [xeops.ai](https://xeops.ai)
-- **🛍️ VS Code Marketplace**: [XeOps Guardian](https://marketplace.visualstudio.com/items?itemName=xeops.xeops-guardian)
-- **🐦 Twitter**: [@XeOpsAI](https://twitter.com/XeOpsAI)
-- **💼 LinkedIn**: [XeOps AI](https://linkedin.com/company/xeops-ai)
+- **VS Code Extension**: MIT License
+- **XeOps Platform**: Proprietary - [Terms of Service](https://xeops.ai/terms)
 
 ---
 
 <div align="center">
-  Fait avec ❤️ par l'équipe XeOps
 
-  **[Essayer Gratuitement](https://xeops.ai)** | **[Documentation](docs/)** | **[Support](mailto:support@xeops.ai)**
+  ### 🚀 Ready to revolutionize your security testing?
+
+  # [Start Free Trial](https://xeops.ai)
+
+  No credit card required • 14-day free trial • Cancel anytime
+
+  ---
+
+  Built with ❤️ by security professionals, for security professionals
+
 </div>
