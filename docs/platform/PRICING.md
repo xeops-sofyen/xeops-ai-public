@@ -1,74 +1,74 @@
-# Tarification XeOps AI
+# XeOps AI Pricing
 
-## 💰 Plans Disponibles
+## 💰 Available Plans
 
-### Starter - €49/mois
+### Starter - €49/month
 Perfect for small teams and individual developers.
 
-**Inclus:**
-- 100 scans mensuels
-- 5 membres d'équipe
-- Scanning Web & API
-- Couverture OWASP Top 10
-- Génération d'exploits personnalisés
-- Rapports de conformité basiques
-- Support par email
+**Included:**
+- 100 monthly scans
+- 5 team members
+- Web & API scanning
+- OWASP Top 10 coverage
+- Custom exploit generation
+- Basic compliance reports
+- Email support
 
-### Professional - €149/mois ⭐ Le Plus Populaire
-Pour les équipes en croissance et les professionnels de la sécurité.
+### Professional - €149/month ⭐ Most Popular
+For growing teams and security professionals.
 
-**Inclus:**
-- 500 scans mensuels
-- 20 membres d'équipe
-- Toutes surfaces d'attaque (Web, API, Mobile, Cloud)
-- Exploits vérifiés (PoCs)
-- Conformité avancée (ISO/SOC 2/PCI-DSS)
-- API avec webhooks
-- Intégrations Slack/JIRA/GitHub
-- Support prioritaire
+**Included:**
+- 500 monthly scans
+- 20 team members
+- All attack surfaces (Web, API, Mobile, Cloud)
+- Verified exploits (PoCs)
+- Advanced compliance (ISO/SOC 2/PCI-DSS)
+- API with webhooks
+- Slack/JIRA/GitHub integrations
+- Priority support
 
-### Enterprise - €499/mois
-Pour les grandes organisations et équipes red team.
+### Enterprise - €499/month
+For large organizations and red teams.
 
-**Inclus:**
-- Scans illimités
-- Membres illimités
-- Toutes surfaces + Web3
-- Simulation APT red team
-- Analyse white-box & black-box
-- Rapports white-label
-- Intégrations personnalisées & SSO
-- Support 24/7 avec SLA
+**Included:**
+- Unlimited scans
+- Unlimited members
+- All surfaces + Web3
+- APT red team simulation
+- White-box & black-box analysis
+- White-label reports
+- Custom integrations & SSO
+- 24/7 support with SLA
 
-## 🎯 Comparaison des Features
+## 🎯 Feature Comparison
 
 | Feature | Starter | Professional | Enterprise |
 |---------|---------|--------------|------------|
-| Scans/mois | 100 | 500 | Illimité |
-| Membres | 5 | 20 | Illimité |
+| Scans/month | 100 | 500 | Unlimited |
+| Team members | 5 | 20 | Unlimited |
 | OWASP Top 10 | ✅ | ✅ | ✅ |
-| Génération Exploits | ✅ | ✅ | ✅ |
+| Exploit Generation | ✅ | ✅ | ✅ |
 | API Access | ❌ | ✅ | ✅ |
-| Intégrations | ❌ | ✅ | ✅ |
+| Integrations | ❌ | ✅ | ✅ |
 | White-label | ❌ | ❌ | ✅ |
 | SLA | ❌ | ❌ | ✅ |
 
-## 💳 Paiement
+## 💳 Payment
 
-- Facturation mensuelle ou annuelle (15% de réduction)
-- Paiement par carte ou virement
-- Factures conformes TVA
+- Monthly or annual billing (15% discount for annual)
+- Payment by card or bank transfer
+- VAT compliant invoices
 
-## 🔄 Essai Gratuit
+## 🔄 Free Trial
 
-- 14 jours d'essai gratuit
-- Pas de carte requise
-- Accès complet aux features
+- 14-day free trial
+- No credit card required
+- Full feature access
 
-## 📞 Contact Commercial
+## 📞 Sales Contact
 
-Pour les plans Enterprise ou besoins spécifiques:
+For Enterprise plans or specific needs:
 - Email: sales@xeops.ai
-- Téléphone: +33 1 XX XX XX XX
+- Phone: +33 1 XX XX XX XX
 
-Visitez [xeops.ai/pricing](https://xeops.ai/pricing) pour plus de détails.
+Visit [xeops.ai/pricing](https://xeops.ai/pricing) for more details.

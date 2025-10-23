@@ -1,19 +1,19 @@
-# Installation de XeOps Guardian
+# XeOps Guardian Installation Guide
 
-## 🚀 Installation Rapide
+## 🚀 Quick Installation
 
-### Option 1: Via VS Code Marketplace (Recommandé)
-1. Ouvrez VS Code
-2. Cliquez sur l'icône Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Recherchez "XeOps Guardian"
-4. Cliquez sur "Install"
-5. Rechargez VS Code si nécessaire
+### Option 1: Via VS Code Marketplace (Recommended)
+1. Open VS Code
+2. Click on the Extensions icon (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "XeOps Guardian"
+4. Click "Install"
+5. Reload VS Code if necessary
 
 ### Option 2: Via Command Palette
-1. Ouvrez VS Code
-2. Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
-3. Tapez: `ext install xeops.xeops-guardian`
-4. Appuyez sur Enter
+1. Open VS Code
+2. Open Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
+3. Type: `ext install xeops.xeops-guardian`
+4. Press Enter
 
 ### Option 3: Via Terminal
 ```bash
@@ -22,27 +22,27 @@ code --install-extension xeops.xeops-guardian
 
 ## ⚙️ Configuration
 
-### Configuration de l'API
-1. Créez un compte sur [xeops.ai](https://xeops.ai)
-2. Obtenez votre API Key depuis le dashboard
-3. Dans VS Code: Settings → Extensions → XeOps Guardian
-4. Entrez votre API Key
+### API Setup
+1. Create an account at [xeops.ai](https://xeops.ai)
+2. Get your API Key from the dashboard
+3. In VS Code: Settings → Extensions → XeOps Guardian
+4. Enter your API Key
 
-### Vérification
-1. Ouvrez un fichier JavaScript, Python, Java ou PHP
-2. L'extension devrait détecter automatiquement les vulnérabilités
-3. Cliquez sur l'icône XeOps dans la barre latérale
+### Verification
+1. Open a JavaScript, Python, Java, or PHP file
+2. The extension should automatically detect vulnerabilities
+3. Click on the XeOps icon in the sidebar
 
-## 🔧 Dépannage
+## 🔧 Troubleshooting
 
-- **Extension non visible**: Vérifiez VS Code version 1.74.0+
-- **Pas de détection**: Vérifiez que le fichier est sauvegardé
-- **Erreurs API**: Vérifiez votre API Key et connexion internet
+- **Extension not visible**: Check VS Code version 1.74.0+
+- **No detection**: Verify the file is saved
+- **API errors**: Check your API Key and internet connection
 
 ## 📚 Documentation
 
-- [Guide d'utilisation](USAGE.md)
-- [Configuration avancée](CONFIGURATION.md)
+- [Usage Guide](USAGE.md)
+- [Advanced Configuration](CONFIGURATION.md)
 - [FAQ](../FAQ.md)
 
 ## 🆘 Support
