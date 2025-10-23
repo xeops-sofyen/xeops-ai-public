@@ -1,4 +1,4 @@
-# 🛡️ XeOps.ai - AI-Powered Offensive Security Platform
+# 🛡️ XeOps.ai - AI-Powered Security Platform
 
 <div align="center">
 
@@ -18,7 +18,7 @@
 
 ## 🌟 What is XeOps?
 
-**XeOps.ai** is an AI-powered offensive security platform that transforms vulnerability discovery into actionable exploits automatically. Built for security professionals who need **speed**, **accuracy**, and **proof** — not just vulnerability reports.
+**XeOps.ai** is an AI-powered security platform that transforms vulnerability discovery into actionable exploits automatically. Built for security professionals who need **speed**, **accuracy**, and **proof** — not just vulnerability reports.
 
 ### 🎯 Why XeOps?
 
