@@ -1,8 +1,8 @@
-# 🛡️ XeOps.ai - AI-Powered Offensive Security Platform
+# 🛡️ XeOps.ai - AI-Powered Security Platform
 
 <div align="center">
 
-  <img src="https://xeops.ai/logo.png" alt="XeOps Logo" width="200"/>
+  <img src="https://www.xeops.ai/logos/symbol.svg" alt="XeOps Logo" width="200"/>
 
   # Discover & Exploit Vulnerabilities with AI
 
