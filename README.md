@@ -88,7 +88,18 @@ Traditional Pentest:          XeOps.ai:
 
 ---
 
-## 🛠️ VS Code Extension
+## 🎯 Platform Features
+
+### 🌐 Web Application (https://www.xeops.ai)
+
+- **AI Security Chat** - Ask XeOps AI Agent anything about vulnerabilities, exploits, and security
+- **Automated Scanning** - One-click security scans for web applications and APIs
+- **Exploit Generation** - Generate working proof-of-concept exploits automatically
+- **Bug Bounty Hub** - Integration with major bug bounty platforms
+- **Usage Dashboard** - Track your scans, AI usage, and plan limits
+- **Compliance Reports** - Generate reports for OWASP, MITRE ATT&CK, and more
+
+### 📱 VS Code Extension
 
 Install our VS Code extension for real-time security analysis while you code:
 
@@ -96,11 +107,13 @@ Install our VS Code extension for real-time security analysis while you code:
 code --install-extension xeops.xeops-guardian
 ```
 
-Features:
-- Real-time vulnerability detection
-- One-click exploit generation
-- Integrated security chat
-- Direct platform integration
+**Features** (v0.1.5):
+- **Defense Mode** - Real-time vulnerability detection and auto-fix
+- **Offense Mode** - Generate exploits and test attack vectors
+- **AI Security Chat** - Integrated XeOps AI Agent in your IDE
+- **Attack Path Visualization** - Interactive graph of potential attack chains
+- **Bug Bounty Workflow** - Submit findings directly from VSCode
+- **20+ Languages** - JavaScript, Python, Java, PHP, Go, Rust, and more
 
 [View on Marketplace →](https://marketplace.visualstudio.com/items?itemName=xeops.xeops-guardian)
 
@@ -108,13 +121,22 @@ Features:
 
 ## 💰 Pricing
 
-| Plan | Price | Scans | Features |
-|------|-------|-------|----------|
-| **Starter** | €49/month | 100 scans | Web & API, OWASP Top 10, Basic reports |
-| **Professional** | €149/month | 500 scans | All surfaces, Advanced exploits, Compliance |
-| **Enterprise** | €499/month | Unlimited | White-label, APT simulation, Priority support |
+| Plan | Price | Scans | AI Chat | Exploits | Key Features |
+|------|-------|-------|---------|----------|--------------|
+| **Free** | €0 | 10/month | 20/day | 5/day | Test our platform, AI chat, Basic scanning |
+| **Starter** | €49/month | 100/month | Included | Included | Web & API, OWASP Top 10, 5 team members |
+| **Professional** | €149/month | 500/month | Unlimited | Unlimited | All surfaces, Advanced exploits, 20 team members |
+| **Enterprise** | €499/month | Unlimited | Unlimited | Unlimited | White-label, APT simulation, Priority support |
 
-[Start Free Trial →](https://xeops.ai/pricing)
+**Free Plan Includes**:
+- 10 security scans per month
+- 20 AI chat messages per day
+- 5 exploit generations per day
+- Access to XeOps AI Agent
+- VS Code extension access
+- Bug bounty platform integration
+
+[View All Plans →](https://xeops.ai/pricing)
 
 ---
 
@@ -170,9 +192,10 @@ Automate reconnaissance and initial exploitation phases of your engagements.
 
 ## 📚 Documentation
 
+- [Platform Architecture](ARCHITECTURE.md) - System overview and design
 - [Getting Started Guide](docs/platform/GETTING_STARTED.md)
-- [API Documentation](docs/platform/API_REFERENCE.md)
 - [VS Code Extension Guide](docs/extension/INSTALLATION.md)
+- [Pricing](docs/platform/PRICING.md)
 - [FAQ](docs/FAQ.md)
 
 ---
